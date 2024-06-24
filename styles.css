@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-container {
+    padding: 10px;
+}
+
+button {
+    font-weight: 550;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#value {
+    font-size: xx-large;
+    font-weight: 550;
+}
+
+button.increase:hover {
+    color: white;
+    background-color: hsl(120, 100%, 25%);
+}
+
+button.decrease:hover {
+    color: white;
+    background-color: hsl(0, 100%, 40%);
+}
+
+button.reset:hover {
+    color: white;
+    background-color: hsl(180, 100%, 30%);
+}
+
+button.increase:active {
+    color: white;
+    background-color: hsl(120, 100%, 35%);
+}
+
+button.decrease:active {
+    color: white;
+    background-color: hsl(0, 100%, 50%);
+}
+
+button.reset:active {
+    color: white;
+    background-color: hsl(180, 100%, 40%);
+}
